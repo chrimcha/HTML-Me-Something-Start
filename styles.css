@@ -1,1 +1,54 @@
-/* Write your CSS here! */
+body {
+    background-color: rgb(5, 53, 53);
+    margin: 6%;
+}
+
+p {
+    /* color: black; */
+}
+
+section {
+    display: block;
+    background-color: rgb(151, 116, 116);
+    padding: 50 50 50;
+}
+
+section h4 {
+    color: rgb(5, 53, 53, .4);
+
+}
+
+footer {
+    text-align: center;
+    color: rgba(126, 124, 0, .4);
+    font-size: 15px;
+    margin: 85px 0 45px;
+    font-weight: bold;
+}
+
+footer a{
+    color: rgba(126, 124, 0, .4);
+    text-decoration: none;
+}
+
+#body-frame {
+    margin-top: 8%;
+    border-radius: 5px;
+    border: 2px solid rgba(126, 124, 0, .4);
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+#header {
+    border-radius: 5px;
+    border: 2px solid rgba(126, 124, 0, .4);    
+}
+
+#header-details {
+    align-content: right;
+    
+}
+
+#footer-date {
+    font-size: xx-small;
+}
