@@ -6,49 +6,99 @@
       <meta name="author" content="CMChavez">
 
       <title>Here's My Future Resume</title>
+      <link rel="icon" type="image/x-icon" href="/images/CMC.png">
       <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+      <!-- <script>
+         function init () {
+            const buttonToTest = document.getElementById("testButton");
+
+            let childrenElements = document.body.children;
+
+            buttonToTest.addEventListener("click", function() {
+               console.log(childrenElements);  
+            });
+
+         }
+
+      window.addEventListener("load", init);
+      </script> -->
    </head>
 
-   <body>      
-      <div id="body-frame">
-         <div id="header">
-            <h1>C M Chavez</h1>
-            <div id="header-details"><h2>Creative works with Fine Art, Culinary Art, and Computer Science</h2></div>
-            
+   <body>
+      <!-- <fieldset> -->         
+         <div class="flex-container" id="header-div">
+            <header id="mainHeading">
+               <img src="images/CMC.svg">         
+               <h1>Christina M Chavez</h1>
+               <div id="header-details"><h2>Creative works with Fine Art, Culinary Art, and Computer Science</h2></div>
+               
+               <fieldset><legend><h1>Christina M Chavez</h1></legend>
+               <p class="funParagraph" id="testP">This is my future resume, taking into account my goals and interests.</p>
+            </fieldset>
+            </header>
 
-            <p>This is my future resume, taking into account my goals and interests.</p>
+            
+         </div>
+         
+         <div class="flex-container" id="main-content-div">
+            <div class="images">
+               <img src="images/nasa-hubble-space-telescope-u8AAwRz2Fm4-unsplash.jpg" width="650"></img><br>
+               <!-- <sup><a href="https://unsplash.com/@hubblespacetelescope">&blacktriangleright;Photo Source</a></sup> -->
+               </div>
+
+            <main class="flex-container">
+               <section id="Goals">
+                  <div><h4>2024</h4>
+                     <p>Add some &Gopf;oals here.<br>
+                     &bullet; Completed LaunchCode Part-time Web Dev (jan - aug) </p>
+                  </div>
+               </section>
+               
+               <section id="work-experience">
+                  <div><h4>2023-2024</h4>
+                     <p>LaunchCode Part-Time Web Development</p>
+                  </div>
+               </section>
+
+               <section id="interests-and-hobbies">
+                  <div><h4>interests-and-hobbies</h4>
+                     <p>&multimap; Currently, &larrpl; fiber arts, meal planning &midcir; </p>
+                  </div>
+               </section>
+
+               <section id="future-plans">
+                  <div><h4>2024 &rightsquigarrow; Future</h4>
+                     <p>Currently, fiber arts, meal planning </p>
+                  </div>
+               </section>
+            </main>
+
+            <div class="images">
+               <img src="images/nasa-hubble-space-telescope-R_QybbmqvTc-unsplash.jpg" width="650"></img><br>
+            </div>
          </div>
 
-         <section id="Goals">
-            <div><h4>2024</h4>
-               <p>Add some goals here.</p>
-            </div>
-         </section>
-         
-         <section id="work-experience">
-            <div><h4>2023-2024</h4>
-               <p>LaunchCode Part-Time Web Development</p>
-            </div>
-         </section>
-
-         <section id="interests-and-hobbies">
-            <div><h4>interests-and-hobbies</h4>
-               <p>Currently, fiber arts, meal planning </p>
-            </div>
-         </section>
-
-         <section id="future-plans">
-            <div><h4>2024 - Future</h4>
-               <p>Currently, fiber arts, meal planning </p>
-            </div>
-         </section>
-         
-         <footer>
+         <footer class="flex-container">            
             <div>
-               <p>email: <a href="mailto:hege@example.com">addemialhere@example.com</a></p>
-               <p id="footer-date"><em>Last updated</em> : [ADD DATE WHEN COMPLETED]</p>
+               <p id="email">&#9993;: <a href="mailto:chmchavez@gmail.com">chmchavez@gmail.com</a></p>
+            </div>
+
+            <div>
+               <p id="phone">&#9742;: <a href="tel: 0000000000">xxx-xxx-xxxx</a></p>
+            </div>
+
+            <div>
+               <p id="website">&#127760;: <a href="filmandyarn.com">filmandyarn.com</a></p>
             </div>
          </footer>
-      </div>
+
+         <div>
+           <sup><p id="footer-date"><em>&sstarf; Last updated</em> : [ADD DATE WHEN COMPLETED] &sstarf;</p></sup>
+         </div>
+         
+      <!-- </fieldset> -->
+   
+   <!-- <button id="testButton">Check Check!</button> -->
    </body>
 </html>
