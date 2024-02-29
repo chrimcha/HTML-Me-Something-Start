@@ -18,6 +18,7 @@ a {
 
 main.flex-container {
     margin: 1px 0px 5px;
+    border: none;
 }
 
 section {
