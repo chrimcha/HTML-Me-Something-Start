@@ -28,11 +28,13 @@
    <body>             
       <div class="flex-container" id="header-div">
          <header id="mainHeading">
-            <div><p class="funParagraph" id="testP">This is my future resume, taking into account my goals and interests.</p></div>
-            <img src="images/CMC.svg">
+            <div class="flex-container" id="with-initials">
+               <img src="images/CMC.svg">
+               <div id="header-details"><h2>Creative works inspired by Fine Art, Culinary Art, and Computer Science</h2></div> 
+            </div>
 
             <fieldset><legend><h1>Christina M Chavez</h1></legend>
-               <div id="header-details"><h2>Creative works with Fine Art, Culinary Art, and Computer Science</h2></div>                           
+               <p class="funParagraph" id="testP">This is my future resume, taking into account my goals and interests.</p>
             </fieldset>
          </header>
 
@@ -46,37 +48,36 @@
             </div>
 
          <main class="flex-container">
-            <div>
-               <section id="Goals">
-                  <fieldset><legend><h4>Goals</h4></legend>
+            <div class="left-section">
+               <section id="education">
+                  <fieldset><legend><h4>Education</h4></legend>
                      <div>
-                     <p>Add some  here.<br>
-                     &bullet; Completed LaunchCode Part-time Web Dev (jan - aug) </p>
+                     <p class="content">&bullet; Completed LaunchCode Part-time Web Dev (jan - aug) </p>
                   </div></fieldset>
                </section>
                
                <section id="work-experience">
-                  <fieldset><legend><h4>2023-2024 Experience</h4></legend>
+                  <fieldset><legend><h4>Experience</h4></legend>
                   <div>
-                     <p>LaunchCode Part-Time Web Development</p>
+                     <p class="content">2023-2024 : LaunchCode Part-Time Web Development</p>
                      <p>LaunchCode Part-Time Web Development</p>
                      <p>LaunchCode Part-Time Web Development</p>
                      <p>LaunchCode Part-Time Web Development</p>
                   </div></fieldset>
                </section>
             </div>
-            <div>
+            <div class="right-section">
                <section id="interests-and-hobbies">
                   <fieldset><legend><h4>Interests</h4></legend>
                   <div>
-                     <p>&multimap; Currently, &larrpl; fiber arts, meal planning &midcir; </p>
+                     <pclass="content">&multimap; Currently, &larrpl; fiber arts, meal planning &midcir; </p>
                   </div></fieldset>
                </section>
 
                <section id="future-plans">
                   <fieldset><legend><h4>2024 &rightsquigarrow; Future</h4></legend>
                   <div>
-                     <p>Currently, fiber arts, meal planning </p>
+                     <p class="content">Currently, fiber arts, meal planning </p>
                   </div></fieldset>
                </section>
             </div>
@@ -105,7 +106,7 @@
          <sup><p id="footer-date"><em>&sstarf; Last updated</em> : [ADD DATE WHEN COMPLETED] &sstarf;</p></sup>
       </div>        
      
-                                 <!-- add image and icon sources -->
+                  <!-- add image and icon sources -->
 
    <!-- <button id="testButton">Check Check!</button> -->
    </body>

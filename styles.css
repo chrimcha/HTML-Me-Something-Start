@@ -19,6 +19,8 @@ a {
 main.flex-container {
     margin: 1px 0px 5px;
     border: none;
+    /* justify-content: stretch; */
+
 }
 
 section {
@@ -48,8 +50,13 @@ footer.flex-container {
 
 .funParagraph {
     color: green;
+    text-align: center;
+    margin-top: 0px;
 }
 
+.content {
+    margin-top: 0px;
+}
 
 .images > img{
     width: auto;
@@ -68,10 +75,25 @@ footer.flex-container {
     padding: 5%;
 }
 
+.left-section {
+    margin-right: 10px;
+}
+
+.right-section {
+    margin-left: 10px;
+}
+
 #mainHeading {
     color: red;
     border-radius: 5px;
     /* border: 2px solid rgba(126, 124, 0, .4);     */
+}
+
+#with-initials {
+    border: none;
+    justify-content: space-evenly;
+    margin: 0;
+    text-align: end;
 }
 
 #header-details {
@@ -84,6 +106,14 @@ footer.flex-container {
     flex-direction: column;
     margin-top: 5px;
 }
+
+/* #future-plans {
+    justify-content: stretch;
+}
+
+#interests-and-hobbies {
+    justify-content: stretch;
+} */
 
 #footer-date {
     text-align: center;
