@@ -17,11 +17,21 @@ a {
 }
 
 main.flex-container {
-    margin: 1px 0px 5px;
+    /* margin: 1px 0px 5px; */
     border: none;
-    /* justify-content: stretch; */
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    padding-top: 15px;
 
 }
+
+/* legend {
+    border-radius: 5px;
+    border-color: rgba(126, 124, 0, .4);
+} */
 
 section {
     display: block;
@@ -63,6 +73,7 @@ footer.flex-container {
     height : auto;
     max-height: 100%;
     max-width: 100%;
+    border-radius: 5px;
 }
 
 .flex-container {
